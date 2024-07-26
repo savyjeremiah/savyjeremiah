@@ -390,7 +390,12 @@ nav ul li a{
                 width: 150px;
                 border-radius: 20px;
             }
-}@media( max-width:425px){  
+            .music{ position: relative;
+                right: -70px;
+
+            }
+}
+@media( max-width:425px){  
     nav{
         display: flex;
         justify-content: space-around;
